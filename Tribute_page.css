@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Noto+Sans+SC');
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: #ffffff; /* white */
+    }
+  }
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #ffffff; /* white */
+    }
+  }
+   /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #111111; /* light black */
+    }
+  }
+   
+.container{
+    background-color: #ffffff;
+    margin: 0% 10% 0% 10%;
+}
+h1{
+    font-family:'noto+sans+SC', 'Arial', 'Verdana';
+    font-size: 350%;
+    text-align: center;
+    color: #D5242A;
+    padding-top: 3%;
+}
+h2{
+    font-family:'great vibes', cursive;
+    font-size: 250%;
+    text-align: center;
+    line-height: 0.7;
+    color: #D5242A;
+}
+h3{
+    font-family:'noto+sans+SC', Arial, Verdana;
+    color: #D5242A;
+    font-size: 200%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    box-shadow: 10px 10px 10px #dedede;
+    display: block;
+}
+#img-caption{
+    font-family:'noto+sans+SC', Arial, Verdana;
+    color: #D5242A;
+    font-size: 100%;
+    padding-top: 1%;
+}
+ul{
+    text-align: justify;
+    margin: 0% 20% 0% 20%;
+    list-style-image: url(images/arrow2.png);
+}
+
+.cites{
+    display: flex;
+    flex-direction: row;
+}
+blockquote{
+    display: block;
+    width:60%;
+    margin:50px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-size: 1.4em;
+    color: #333333;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid #d5242A;
+    line-height:1.6;
+    position: relative;
+    background:#EDEDED;
+    font-size: 120%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+  
+  blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#d5242A;
+    font-size: 4em;
+    position: absolute;
+    left: 15px;
+    top:-10px;
+}
+  
+  blockquote::after{
+    content: '';
+}
+  
+
+cite{
+    font-family:'great vibes', cursive;
+    font-size: 120%;
+}
+#wikipedia{
+    font-size: 120%;
+    padding-bottom: 5%;
+}
+#tribute-link{
+    color: #d5242A;
+}
+
+
